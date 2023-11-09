@@ -1,0 +1,18 @@
+nav {
+    background: linear-gradient(217deg, rgba(18, 172, 238, 0.945), rgba(34, 176, 5, 0.945) 70.71%);
+}
+main{
+    margin-top: 100px;
+}
+.baner img{
+    width: 100%;
+}
+.contacto{
+    background: linear-gradient(217deg, rgba(18, 172, 238, 0.945), rgba(34, 176, 5, 0.945) 70.71%);
+    border-radius: 85% 0px 30% 0%;
+}
+
+.footer{
+    background: linear-gradient(217deg, rgba(18, 172, 238, 0.945), rgba(34, 176, 5, 0.945) 70.71%);
+    border-radius: 85% 0px 30% 0%;
+}

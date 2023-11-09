@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <title>Strategic Performing SL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- LIBRERIA DE ANIMACIONES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body >
+    <header class="">
+        <!-- MENU CON NAVBAR ADAPTABLE A MOBILE -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- ESTE ES EL LOGO -->
+                <a href="index.html" class="navbar-brand d-inline-block align-text-top text-white mt-1">
+                    <img src="img/logo.png" title="Strategic Performing SL" 
+                    alt="Logo" width="50px" class="rounded">                    
+                    <!-- <spam class="fw-lighter">Strategic Performing SL</spam>                     -->
+                </a>
+                
+                <div class="text-end">
+                    <!-- Boton para el menu movil- responsive -->
+                    <button
+                        class="navbar-toggler text-white"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menu"
+                        aria-controls="menu"
+                        aria-expanded="false"
+                        aria-label="Mostrar / Ocultar Menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Menu de navegacion -->
+                    <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">                        
+                        <li class="nav-item"><a href="#nuestraEmpresa" class="nav-link text-white">Nuestra empresa</a></li>
+                        <li class="nav-item"><a href="#servicios" class="nav-link text-white">Servicios</a></li>
+                        <li class="nav-item"><a href="#contacto" class="nav-link text-white">Contacto</a></li>                      
+                        <li class="nav-item"><a href="#ubicacion" class="nav-link text-white">Ubicación</a></li>
+                        <li class="nav-item"><a href="#redes" class="nav-link text-white">Redes</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="">
+        
+        <!-- Carrousel -->
+        <div class="container py-2 shadow">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- Si se le quita la clase carousel-fade pasa segun las flechas -->
+                    <div class="carousel slide carousel-fade" id="mi-carousel" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active baner">                                                   
+                                <img class="img-fluid rounded " src="img/baner5.jpg"  alt="">                        
+                                <!-- SE AGREGA TEXTO CON EL DIV CAROUSEL-CAPTION -->                                
+                                <div class="carousel-caption ">
+                                    <h3 class="text-white text-center fs-2 lh-1">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Tempora neque ratione unde! 
+                                        Illum, aperiam corporis
+                                    </h3> 
+                                </div>                                                  
+                            </div> 
+                           
+                            <div class="carousel-item baner">                                               
+                                <img class="img-fluid rounded" src="img/baner0.jpeg" alt="">
+                                 <!-- SE AGREGA TEXTO CON EL DIV CAROUSEL-CAPTION --> 
+                                 <div class="carousel-caption ">
+                                    <h3 class="text-white text-center fs-2 lh-1">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Tempora neque ratione unde! 
+                                        Illum, aperiam corporis
+                                    </h3>                                
+                                </div>
+                            </div>
+                            <div class="carousel-item baner">                                                       
+                                <img class="img-fluid rounded" src="img/baner1.jpg" alt="">   
+                                <!-- SE AGREGA TEXTO CON EL DIV CAROUSEL-CAPTION --> 
+                                <div class="carousel-caption ">
+                                    <h3 class="text-white text-center fs-2 lh-1">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Tempora neque ratione unde! 
+                                        Illum, aperiam corporis
+                                    </h3>                                
+                                </div>                         
+                            </div>
+                          
+                        </div>                         
+    
+                        <!-- INDICADORES -->
+                        <div class="carousel-indicators">
+                            <button
+                                type="button"
+                                class="active" 
+                                data-bs-target="#mi-carousel"
+                                data-bs-slide-to="0"
+                                arial-label="Slide 1">
+                            </button>
+                            <button
+                                type="button"
+                                class="" 
+                                data-bs-target="#mi-carousel"
+                                data-bs-slide-to="1"
+                                arial-label="Slide 2">
+                            </button>
+                            <button
+                                type="button"
+                                class="" 
+                                data-bs-target="#mi-carousel"
+                                data-bs-slide-to="2"
+                                arial-label="Slide 3">
+                            </button>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+     
+
+        <!-- Acerca de  -->
+        <div class=" bg-light py-5 d-flex align-items-center justify-content-center mt-5 suc">   
+            <div class="row">            
+                <div class="col-12 col-sm-12 col-md-12">
+                    <h1 class="text-success text-center display-3 fw-bold mb-5" id="nuestraEmpresa" data-aos="zoom-out">
+                        Strategic Performing SL
+                    </h1>                                      
+                </div>
+                <p class="text-center text-primary px-5 fw-light display-6 m-0" data-aos="zoom-in-up">Somos una empresa dedicada a la limpieza de 
+                    comunidades de vecinos, parking, oficinas, limpiezas de final de obra, limpieza de
+                    pisos vacíos para puesta a punto.                    
+                </p>
+                
+                <p class="text-center text-muted display-2">
+                    <i class="bi bi-bricks display-6"></i>
+                    <i class="bi bi-bucket display-6"></i>                                      
+                    <i class="bi bi-hand-thumbs-up display-6"></i>
+                </p>
+                <p class="text-center text-info px-5 fw-light display-6 m-0" data-aos="zoom-in-up">Nuestros años de experiencia
+                    nos permiten ofrecer un máximo de eficacia a precios competitivos.
+                    Adaptándonos a las necesidades de los propietarios y ofreciendo tiempo de calidad 
+                    y precisión en cada limpieza.                    
+                </p>
+                
+            </div>
+        </div>
+        
+    
+
+        <!-- CARDS CON ANIMACIONES -->
+        <h2 class="text-primary text-center display-4 fw-bold mt-5" id="servicios">Servicios</h2>    
+      
+        <div class="container p-x3 py-3">
+            <div class="row">
+                 <!-- Primera card-->   
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mb-1 efecto" data-aos="zoom-in">                                                      
+                    <img class="card-img-top rounded responsive card border-white" src="img/card1.jpeg" alt="">
+                    <div class="card-body mt-3">
+                        <h6 class="card-title text-muted text-center">Limpieza de final de obra</h6>                        
+                        <p class="card-text text-muted fw-light text-justify mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dolor?
+                        </p>                        
+                    </div>          
+                </div>
+                <!-- Segunda card-->   
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mb-1 efecto" data-aos="zoom-in-up">                        
+                    <img class="card-img-top rounded responsive" src="img/card2.jpeg" alt="">                    
+                    <div class="card-body mt-3">
+                        <h6 class="card-title text-muted text-center">Limpieza de comunidades de vecinos</h6>                        
+                        <p class="card-text text-muted fw-light text-justify mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dolor?
+                        </p>                        
+                    </div> 
+                </div>
+                <!-- Tercera card--> 
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mb-1 efecto" data-aos="zoom-in-down">                                       
+                    <img class="card-img-top rounded responsive" src="img/card3.jpeg" alt="">
+                    <div class="card-body mt-3">
+                        <h6 class="card-title text-muted text-center">Limpieza de parking y oficinas</h6>                        
+                        <p class="card-text text-muted fw-light text-justify mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dolor?
+                        </p>                        
+                    </div>          
+                </div>
+                <!-- Cuarta card--> 
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mb-1 efecto" data-aos="zoom-out">                                       
+                    <img class="card-img-top rounded responsive" src="img/card5.jpeg" alt="">
+                    <div class="card-body mt-3">
+                        <h6 class="card-title text-muted text-center">Limpieza de pisos vacíos</h6>                        
+                        <p class="card-text text-muted fw-light text-justify mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dolor?
+                        </p>                        
+                    </div>            
+                </div>
+            </div>
+        </div>
+        
+       
+        <!-- CONTACTO -->
+        <div class="contanier-fluid mt-5 contacto" id="contacto">
+            <h3 class="text-center text-white py-2"> Contacto: </h3>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <p class="text-white text-center fs-4">
+                        <i class="bi bi-telephone-outbound text-white fs-4 "></i> 631.41.26.28
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p class="text-white text-center fs-4">
+                        <i class="bi bi-envelope text-white"></i> strategicperf@outlook.com
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--MAPA GOOGLE- UBICACIÓN --> 
+        <div class="container mt-5">            
+                <h3 class="text-primary" id="ubicacion">Ubicación <i class="bi bi-geo-alt"></i></h3> 
+                <div class="row">
+                        <div class="col S6">        
+                            <p class="horario text-muted "> <span> <b>Horarios:</b></span><br>
+                                                Lunes a Viernes: <br>
+                                                Mañana: 7:30- 11:50 am <br>
+                                                Tarde: 2:00 a 5:00 pm. <br>
+                                                Teléfono: <i class="bi bi-telephone-outbound"></i> - 631.41.26.28
+                            </p>
+                        </div>
+                        <!-- <div class=" col S6">
+                            <p class="horario"> <span> Horario Operativo:</span><br>
+                                                Lunes a Viernes: <br>
+                                                Mañana: 7:00 - 11:45 am: <br>
+                                                Tarde: 12:30 - 5:00 pm.
+                            </p>
+                        </div> -->
+                        <iframe 
+                            class="iframe"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71760.90693965716!2d2.0625576908545677!3d41.38677669671088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2e7b670867d%3A0x2ba716fe75bcc42e!2sC.%20del%20Consejo%20de%20Ciento%2C%20446%2C%2008013%20Barcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1699024253920!5m2!1ses-419!2sar" 
+                            width="600"
+                            height="450"
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>                    
+                </div>             
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <div class="container mt-5 mb-3 footer">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-xl-12">
+                <footer>               
+                    <div class="text-center mb-2 pt-2">      
+                        <p class="text-center text-white fs-5" id="redes">Síguenos</p>                      
+                        <!-- <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter text-white px-1"></i></a>-->
+                        <!-- <a href="https://ar.pinterest.com/" target="_blank"><i class="bi bi-pinterest text-white px-1"></i></a> -->
+                        <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram text-white px-1"></i></a>
+                        <a href="https://www.tiktok.com" target="_blank"><i class="bi bi-tiktok text-white px-1"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook text-white px-1"></i></a>
+                    </div>              
+                </footer>
+            </div>
+        </div>
+    </div>
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration:1500
+        });
+    </script>
+</body>
+</html>
